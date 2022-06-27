@@ -40,25 +40,6 @@ fetch('https://fakestoreapi.com/products')
                 
                 const enlarge=document.querySelectorAll('#title');
                 enlarge_title_property(enlarge);
-
-               /* const product_review=document.querySelectorAll('.class1');
-                product_review.forEach((e)=>{    
-                   e.addEventListener('submit',box2=>{
-                        box2.preventDefault();
-                            const exact=box2.target;
-                            const text2= exact.getElementsByTagName('textarea');
-                            //const result=text2.value;
-                            //console.log(result);
-                            const review_text=document.querySelector('#review');
-                            const list=document.createElement('li'); 
-                            
-                            list.innerText=text2.value;
-                            const created_list=review_text.appendChild(list); 
-                     
-                              
-                        
-                    })
-                })*/
                 
                 });
             
