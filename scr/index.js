@@ -1,7 +1,4 @@
 const title= document.getElementById("title");
-const product_image= document.getElementById("image");
-const price= document.getElementById("price");
-const description= document.getElementById("description");
 const textarea= document.getElementById("text_input");
 const btn=document.getElementsByTagName("button");
 const select=document.querySelector('select');
@@ -44,17 +41,7 @@ fetch('https://fakestoreapi.com/products')
                 });
             
                 const product_review=document.querySelector('.class1');   
-                   product_review.addEventListener('submit',box2=>{
-                        box2.preventDefault();
-                            
-                            const text2=document.getElementById('product_review');
-                            const review_text=document.querySelector('#review');
-                            const list=document.createElement('li');                 
-                            list.innerText=text2.value;
-                            const created_list=review_text.appendChild(list); 
-                            text2.value=" "
-                         
-                    }); 
+                add_review_property(product_review);
                     
                 
  })            
@@ -85,4 +72,17 @@ fetch('https://fakestoreapi.com/products')
             over1.style.fontSize = '1.2rem';
         })
     });
- }      
+ }   
+ function add_review_property(events) {
+    events.addEventListener('submit',box2=>{
+        box2.preventDefault();
+            
+            const text2=document.getElementById('product_review');
+            const review_text=document.querySelector('#review');
+            const list=document.createElement('li');                 
+            list.innerText=text2.value;
+            const created_list=review_text.appendChild(list); 
+            text2.value=" "
+         
+    }); 
+ }   
