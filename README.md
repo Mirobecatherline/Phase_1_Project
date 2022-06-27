@@ -11,6 +11,8 @@ The user selects the category they want to view after which they can like and ad
 
 ## Link to live site on GitHub pages
 ---
+https://mirobecatherline.github.io/Phase_1_Project/
+---
 ## _user story_
 ---
 * user can be able to like their favorite product
