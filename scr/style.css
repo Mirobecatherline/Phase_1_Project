@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#home{
+    display: flex;
+    height: fit-content;
+    background: radial-gradient(#fff,rgb(240, 227, 236));
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#search{
+    
+    min-width: 300px;
+    padding-bottom: 20px;  
+}
+#search h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+#search p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#search img{
+    
+    padding: 50px 0px;
+    min-width: 600px;   
+    
+}
+#cloth1{
+    
+    padding: 8px 30px;
+    border-radius: 30px;
+    background-color: fuchsia;
+}
+#product{
+    min-height: 10cm;
+    background-attachment: fixed;
+}
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cloth_collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#cloth{
+    margin: 10px 10px ;
+    background-color: blanchedalmond;
+    width: 23%;
+    padding: 10px 10px ;
+    box-shadow: 0 0 4px 3px pink;
+    text-align: center;
+    word-wrap:break-word
+}
+.text_input{
+    width: 60%;
+    padding: 10px 10px;
+    
+}
+#cloth img{
+    width: 80%;
+    padding: 10px 10px ;
+}
+#cloth p,.class1 label{
+    font-weight: bold;
+    padding: 10px 10px ;
+}
+#cloth span{
+    font-weight: lighter;
+}
+
+#review li{
+    text-align: center;
+    
+}
+.class1 label{
+    font-size: 1.5rem;
+    font-weight: bold; 
+    text-align: center;
+}
+.comment {
+    min-height: 10cm;
+    padding-top: 10px;
+    background-image: url(./back.jpeg);
+    
+    color: white;
+}
+.comment h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.comment button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: fuchsia;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
